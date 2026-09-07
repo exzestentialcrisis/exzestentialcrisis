@@ -6,7 +6,7 @@ I’m an IT student and full-stack developer who enjoys designing systems as muc
 
 I map out how every part connects, then turn it into software that feels intuitive for users, efficient behind the scenes, and purposeful from end to end.
 
-**[Explore my portfolio →](https://github.com/exzestentialcrisis/portfolio)**
+**[Explore my portfolio →](https://exzestentialcrisis-portfolio.vercel.app/)**
 
 </div>
 
