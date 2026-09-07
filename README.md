@@ -27,23 +27,22 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 ## `03 / STACK`
 
-{<br>
-  Languages: [<br>
-    <img height="24" src="https://img.shields.io/badge/TypeScript-18181B?style=flat-square&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript"> <img height="24" src="https://img.shields.io/badge/JavaScript-18181B?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript"> <img height="24" src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python"> <img height="24" src="https://img.shields.io/badge/Dart-18181B?style=flat-square&amp;logo=dart&amp;logoColor=0175C2" alt="Dart"> <img height="24" src="https://img.shields.io/badge/SQL-18181B?style=flat-square&amp;logo=postgresql&amp;logoColor=4169E1" alt="SQL"> <img height="24" src="https://img.shields.io/badge/Java-18181B?style=flat-square&amp;logo=openjdk&amp;logoColor=ED8B00" alt="Java"> <img height="24" src="https://img.shields.io/badge/PHP-18181B?style=flat-square&amp;logo=php&amp;logoColor=777BB4" alt="PHP"><br>
-  ],<br>
-  Frontend & Mobile: [<br>
-    <img height="24" src="https://img.shields.io/badge/Next.js-18181B?style=flat-square&amp;logo=nextdotjs&amp;logoColor=FFFFFF" alt="Next.js"> <img height="24" src="https://img.shields.io/badge/React-18181B?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React"> <img height="24" src="https://img.shields.io/badge/Flutter-18181B?style=flat-square&amp;logo=flutter&amp;logoColor=54C5F8" alt="Flutter"> <img height="24" src="https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS"><br>
-  ],<br>
-  Backend & Data: [<br>
-    <img height="24" src="https://img.shields.io/badge/FastAPI-18181B?style=flat-square&amp;logo=fastapi&amp;logoColor=009688" alt="FastAPI"> <img height="24" src="https://img.shields.io/badge/Node.js-18181B?style=flat-square&amp;logo=nodedotjs&amp;logoColor=5FA04E" alt="Node.js"> <img height="24" src="https://img.shields.io/badge/Express.js-18181B?style=flat-square&amp;logo=express&amp;logoColor=FFFFFF" alt="Express.js"> <img height="24" src="https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&amp;logo=postgresql&amp;logoColor=4169E1" alt="PostgreSQL"> <img height="24" src="https://img.shields.io/badge/MySQL-18181B?style=flat-square&amp;logo=mysql&amp;logoColor=4479A1" alt="MySQL"> <img height="24" src="https://img.shields.io/badge/Supabase-18181B?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" alt="Supabase"><br>
-  ],<br>
-  Design & Environment: [<br>
-    <img height="24" src="https://img.shields.io/badge/Figma-18181B?style=flat-square&amp;logo=figma&amp;logoColor=F24E1E" alt="Figma"> <img height="24" src="https://img.shields.io/badge/VS_Code-18181B?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=007ACC" alt="VS Code"> <img height="24" src="https://img.shields.io/badge/GitHub-18181B?style=flat-square&amp;logo=github&amp;logoColor=FFFFFF" alt="GitHub"> <img height="24" src="https://img.shields.io/badge/Fedora_Linux-18181B?style=flat-square&amp;logo=fedora&amp;logoColor=51A2DA" alt="Fedora Linux"><br>
-  ],<br>
-  Currently Exploring: [<br>
-    wearable health data · Samsung Health Sensor SDK · Health Connect · AI-assisted decision systems<br>
-  ]<br>
-}
+<code>// LANGUAGES</code><br>
+<img height="26" src="https://img.shields.io/badge/TypeScript-18181B?style=flat-square&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript"> <img height="26" src="https://img.shields.io/badge/JavaScript-18181B?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript"> <img height="26" src="https://img.shields.io/badge/Python-18181B?style=flat-square&amp;logo=python&amp;logoColor=3776AB" alt="Python"> <img height="26" src="https://img.shields.io/badge/Dart-18181B?style=flat-square&amp;logo=dart&amp;logoColor=0175C2" alt="Dart"> <img height="26" src="https://img.shields.io/badge/SQL-18181B?style=flat-square&amp;logo=postgresql&amp;logoColor=4169E1" alt="SQL"> <img height="26" src="https://img.shields.io/badge/Java-18181B?style=flat-square&amp;logo=openjdk&amp;logoColor=ED8B00" alt="Java"> <img height="26" src="https://img.shields.io/badge/PHP-18181B?style=flat-square&amp;logo=php&amp;logoColor=777BB4" alt="PHP">
+
+<code>// FRONTEND + MOBILE</code><br>
+<img height="26" src="https://img.shields.io/badge/Next.js-18181B?style=flat-square&amp;logo=nextdotjs&amp;logoColor=FFFFFF" alt="Next.js"> <img height="26" src="https://img.shields.io/badge/React-18181B?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React"> <img height="26" src="https://img.shields.io/badge/Flutter-18181B?style=flat-square&amp;logo=flutter&amp;logoColor=54C5F8" alt="Flutter"> <img height="26" src="https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS">
+
+<code>// BACKEND + DATA</code><br>
+<img height="26" src="https://img.shields.io/badge/FastAPI-18181B?style=flat-square&amp;logo=fastapi&amp;logoColor=009688" alt="FastAPI"> <img height="26" src="https://img.shields.io/badge/Node.js-18181B?style=flat-square&amp;logo=nodedotjs&amp;logoColor=5FA04E" alt="Node.js"> <img height="26" src="https://img.shields.io/badge/Express.js-18181B?style=flat-square&amp;logo=express&amp;logoColor=FFFFFF" alt="Express.js"> <img height="26" src="https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&amp;logo=postgresql&amp;logoColor=4169E1" alt="PostgreSQL"> <img height="26" src="https://img.shields.io/badge/MySQL-18181B?style=flat-square&amp;logo=mysql&amp;logoColor=4479A1" alt="MySQL"> <img height="26" src="https://img.shields.io/badge/Supabase-18181B?style=flat-square&amp;logo=supabase&amp;logoColor=3FCF8E" alt="Supabase">
+
+<code>// DESIGN + ENVIRONMENT</code><br>
+<img height="26" src="https://img.shields.io/badge/Figma-18181B?style=flat-square&amp;logo=figma&amp;logoColor=F24E1E" alt="Figma"> <img height="26" src="https://img.shields.io/badge/VS_Code-18181B?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=007ACC" alt="VS Code"> <img height="26" src="https://img.shields.io/badge/GitHub-18181B?style=flat-square&amp;logo=github&amp;logoColor=FFFFFF" alt="GitHub"> <img height="26" src="https://img.shields.io/badge/Fedora_Linux-18181B?style=flat-square&amp;logo=fedora&amp;logoColor=51A2DA" alt="Fedora Linux">
+
+<code>// CURRENTLY EXPLORING</code><br>
+<sub>wearable health data · Samsung Health Sensor SDK · Health Connect · AI-assisted decision systems</sub>
+
+
 ---
 
 ## `04 / GITHUB`
