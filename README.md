@@ -18,7 +18,7 @@ I build thoughtful interfaces and reliable systems—from mobile apps and APIs t
 
 ### Guess today's 5-letter word.
 
-[![FlashWordle Board](./data/board.png?v=1)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
+[![FlashWordle Board](./data/board.png?v=1788788063)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
 ### [▶ Leave a Guess](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
