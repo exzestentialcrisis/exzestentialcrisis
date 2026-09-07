@@ -6,9 +6,9 @@ I’m an IT student and full-stack developer who enjoys designing systems as muc
 
 I map out how every part connects, then turn it into software that feels intuitive for users, efficient behind the scenes, and purposeful from end to end.
 
-</div>
+**[Explore my portfolio →](https://github.com/exzestentialcrisis/portfolio)**
 
-<br>
+</div>
 
 ## `stack.config`
 
@@ -45,14 +45,13 @@ I map out how every part connects, then turn it into software that feels intuiti
 ![Vercel](https://img.shields.io/badge/Vercel-161B22?style=for-the-badge&logo=vercel&logoColor=F778BA)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=for-the-badge&logo=githubactions&logoColor=F778BA)
 
-<br>
-
 ## `activity.log`
 
 <div align="center">
 
 <img src="https://streak-stats.demolab.com/?user=exzestentialcrisis&amp;background=0D0D12&amp;border=30303A&amp;stroke=30303A&amp;ring=F778BA&amp;fire=F778BA&amp;currStreakNum=FFD2E9&amp;sideNums=FFD2E9&amp;currStreakLabel=F778BA&amp;sideLabels=C9D1D9&amp;dates=96909A&amp;border_radius=12&amp;timezone=Asia%2FManila" alt="Aki's GitHub streak">
 
+<br>
 <br>
 
 <strong>🐍 CONTRIBUTION SNAKE</strong><br>
@@ -65,8 +64,6 @@ I map out how every part connects, then turn it into software that feels intuiti
 </picture>
 
 </div>
-
-<br>
 
 ## `flashwordle.md`
 
