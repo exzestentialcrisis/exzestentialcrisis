@@ -1,0 +1,34 @@
+name: Generate pink contribution snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate pink contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: exzestentialcrisis
+          outputs: |
+            dist/github-snake-pink.svg?color_snake=%23F778BA&color_dots=%23EBEDF0,%23FFD2E9,%23F5A3CD,%23E56AAD,%23C74283
+            dist/github-snake-pink-dark.svg?color_snake=%23F778BA&color_dots=%23161B22,%233A162A,%236B294B,%23A83F74,%23FFD2E9
+
+      - name: Publish snakes to the output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+
