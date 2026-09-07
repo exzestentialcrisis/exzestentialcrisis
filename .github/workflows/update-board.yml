@@ -35,6 +35,8 @@ jobs:
         run: |
           node scripts/dailyWord.js
           node scripts/generateBoard.js
+        env:
+          FORCE_RESET: "true"
 
       - name: Commit and publish daily board
         run: |
