@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   play:
-    if: github.actor != 'github-actions[bot]'
+    if: github.actor != 'github-actions[bot]' && github.event.issue.number == 1
 
     runs-on: ubuntu-latest
 

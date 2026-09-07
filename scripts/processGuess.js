@@ -11,7 +11,7 @@ const stateFile = "./data/state.json";
 
 const repository =
   process.env.GITHUB_REPOSITORY ||
-  "exzestentialcrisis/github-flashwordle";
+  "exzestentialcrisis/exzestentialcrisis";
 
 const [repoOwner, repoName] = repository.split("/");
 

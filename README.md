@@ -18,15 +18,15 @@ A lot of what I know came from having an idea, realizing I had absolutely no ide
 
 <div align="center">
 
-### Guess one of my tech words.
+### Guess today's 5-letter word.
 
-Every guess updates the board for everyone.
+Everyone shares the same daily puzzle.
 
-[![FlashWordle Board](https://raw.githubusercontent.com/exzestentialcrisis/github-flashwordle/master/data/board.png)](https://github.com/exzestentialcrisis/github-flashwordle/issues)
+[![FlashWordle Board](./data/board.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
-### [▶ Play with GitHub Issues / Comments](https://github.com/exzestentialcrisis/github-flashwordle/issues)
+### [▶ Leave a Guess](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
-<sub>Built with Node.js + GitHub Actions. Soon moving directly into this profile repo.</sub>
+<sub>Powered by GitHub Issues, GitHub Actions, and an unreasonable commitment to putting Wordle in my profile.</sub>
 
 </div>
 
