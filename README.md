@@ -2,6 +2,9 @@
 
 ![Animated terminal introduction](./assets/aki-intro.svg)
 
+I’m an IT student and full-stack developer who enjoys designing systems as much as interfaces.  
+I map out how every part connects, then turn it into software that feels intuitive for users, efficient behind the scenes, and purposeful from end to end.
+
 </div>
 
 ---
@@ -24,9 +27,9 @@
 
 ## `03 / STACK`
 
-`{`
+{
 
-&nbsp;&nbsp;`"languages": [`
+&nbsp;&nbsp;**Languages:** [
 
 &nbsp;&nbsp;&nbsp;&nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript&logoColor=3178C6)
 ![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript&logoColor=F7DF1E)
@@ -36,18 +39,18 @@
 ![Java](https://img.shields.io/badge/Java-18181B?style=flat-square&logo=openjdk&logoColor=ED8B00)
 ![PHP](https://img.shields.io/badge/PHP-18181B?style=flat-square&logo=php&logoColor=777BB4)
 
-&nbsp;&nbsp;`],`
+&nbsp;&nbsp;],
 
-&nbsp;&nbsp;`"frontend_mobile": [`
+&nbsp;&nbsp;**Frontend & Mobile:** [
 
 &nbsp;&nbsp;&nbsp;&nbsp;![Next.js](https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
 ![React](https://img.shields.io/badge/React-18181B?style=flat-square&logo=react&logoColor=61DAFB)
 ![Flutter](https://img.shields.io/badge/Flutter-18181B?style=flat-square&logo=flutter&logoColor=54C5F8)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
 
-&nbsp;&nbsp;`],`
+&nbsp;&nbsp;],
 
-&nbsp;&nbsp;`"backend_data": [`
+&nbsp;&nbsp;**Backend & Data:** [
 
 &nbsp;&nbsp;&nbsp;&nbsp;![FastAPI](https://img.shields.io/badge/FastAPI-18181B?style=flat-square&logo=fastapi&logoColor=009688)
 ![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
@@ -56,24 +59,24 @@
 ![MySQL](https://img.shields.io/badge/MySQL-18181B?style=flat-square&logo=mysql&logoColor=4479A1)
 ![Supabase](https://img.shields.io/badge/Supabase-18181B?style=flat-square&logo=supabase&logoColor=3FCF8E)
 
-&nbsp;&nbsp;`],`
+&nbsp;&nbsp;],
 
-&nbsp;&nbsp;`"design_environment": [`
+&nbsp;&nbsp;**Design & Environment:** [
 
 &nbsp;&nbsp;&nbsp;&nbsp;![Figma](https://img.shields.io/badge/Figma-18181B?style=flat-square&logo=figma&logoColor=F24E1E)
 ![VS Code](https://img.shields.io/badge/VS_Code-18181B?style=flat-square&logo=visualstudiocode&logoColor=007ACC)
 ![GitHub](https://img.shields.io/badge/GitHub-18181B?style=flat-square&logo=github&logoColor=FFFFFF)
 ![Fedora Linux](https://img.shields.io/badge/Fedora_Linux-18181B?style=flat-square&logo=fedora&logoColor=51A2DA)
 
-&nbsp;&nbsp;`],`
+&nbsp;&nbsp;],
 
-&nbsp;&nbsp;`"currently_exploring": [`
+&nbsp;&nbsp;**Currently Exploring:** [
 
-&nbsp;&nbsp;&nbsp;&nbsp;`"wearable health data",` `"Samsung Health Sensor SDK",` `"Health Connect",` `"AI-assisted decision systems"`
+&nbsp;&nbsp;&nbsp;&nbsp;wearable health data · Samsung Health Sensor SDK · Health Connect · AI-assisted decision systems
 
-&nbsp;&nbsp;`]`
+&nbsp;&nbsp;]
 
-`}`
+}
 
 ---
 
