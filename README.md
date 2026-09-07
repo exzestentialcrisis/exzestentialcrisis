@@ -89,7 +89,7 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 ### Guess today's 5-letter word.
 
-[![FlashWordle Board](./data/board.png?v=1788788063)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
+[![FlashWordle Board](./data/board-2026-09-07-4.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
 ### [▶ Leave a Guess](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
