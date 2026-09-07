@@ -1,39 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="390" viewBox="0 0 920 390" role="img" aria-labelledby="title description">
   <title id="title">Animated terminal introduction for Aki</title>
-  <desc id="description">A dark terminal window where a three dimensional ASCII A K I logo appears line by line, followed by the text Hi, I am Aki.</desc>
+  <desc id="description">A dark terminal window prints a three-dimensional ASCII AKI logo line by line, then types an introduction command and greeting once.</desc>
+
   <rect width="920" height="390" rx="18" fill="#0d0d12"/>
   <rect x="1" y="1" width="918" height="388" rx="17" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
   <path d="M18 48H902" stroke="#ffffff" stroke-opacity=".12"/>
+
   <circle cx="31" cy="25" r="6" fill="#f778ba"/>
   <circle cx="51" cy="25" r="6" fill="#ffffff" fill-opacity=".28"/>
   <circle cx="71" cy="25" r="6" fill="#ffffff" fill-opacity=".15"/>
   <text x="93" y="29" fill="#96909a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1">AKI@GITHUB:~/PROFILE</text>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="23" xml:space="preserve">
-    <g fill="#9b456f" opacity="0">
-      <text x="99" y="108"> ________  ___  __    ___</text>
-      <text x="99" y="137">|\   __  \|\  \|\  \ |\  \</text>
-      <text x="99" y="166">\ \  \|\  \ \  \/  /|\ \  \</text>
-      <text x="99" y="195"> \ \   __  \ \   ___  \ \  \</text>
-      <text x="99" y="224">  \ \  \ \  \ \  \\ \  \ \  \</text>
-      <text x="99" y="253">   \ \__\ \__\ \__\\ \__\ \__\</text>
-      <text x="99" y="282">    \|__|\|__|\|__| \|__|\|__|</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;.36;1" dur="6s" repeatCount="indefinite"/>
-    </g>
-    <g fill="#ffd2e9">
-      <text x="91" y="100" opacity="0"> ________  ___  __    ___<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.04;.8;1" dur="6s" repeatCount="indefinite"/></text>
-      <text x="91" y="129" opacity="0">|\   __  \|\  \|\  \ |\  \<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.05;.09;.8;1" dur="6s" repeatCount="indefinite"/></text>
-      <text x="91" y="158" opacity="0">\ \  \|\  \ \  \/  /|\ \  \<animate attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.1;.14;.18;.8;1" dur="6s" repeatCount="indefinite"/></text>
-      <text x="91" y="187" opacity="0"> \ \   __  \ \   ___  \ \  \<animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;.15;.19;.23;.27;.8;1" dur="6s" repeatCount="indefinite"/></text>
-      <text x="91" y="216" opacity="0">  \ \  \ \  \ \  \\ \  \ \  \<animate attributeName="opacity" values="0;0;0;0;0;1;1;0" keyTimes="0;.2;.24;.28;.32;.36;.4;.8;1" dur="6s" repeatCount="indefinite"/></text>
-      <text x="91" y="245" opacity="0">   \ \__\ \__\ \__\\ \__\ \__\<animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;.25;.29;.33;.37;.41;.45;.49;.8;1" dur="6s" repeatCount="indefinite"/></text>
-      <text x="91" y="274" opacity="0">    \|__|\|__|\|__| \|__|\|__|<animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;.3;.34;.38;.42;.46;.5;.54;.58;.8;1" dur="6s" repeatCount="indefinite"/></text>
-    </g>
+  <g fill="#ffd2e9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="23" xml:space="preserve">
+    <text x="91" y="100" visibility="hidden"> ________  ___  __    ___     <set attributeName="visibility" to="visible" begin="0.20s" fill="freeze"/></text>
+    <text x="91" y="129" visibility="hidden">|\   __  \|\  \|\  \ |\  \    <set attributeName="visibility" to="visible" begin="0.35s" fill="freeze"/></text>
+    <text x="91" y="158" visibility="hidden">\ \  \|\  \ \  \/  /|\ \  \   <set attributeName="visibility" to="visible" begin="0.50s" fill="freeze"/></text>
+    <text x="91" y="187" visibility="hidden"> \ \   __  \ \   ___  \ \  \  <set attributeName="visibility" to="visible" begin="0.65s" fill="freeze"/></text>
+    <text x="91" y="216" visibility="hidden">  \ \  \ \  \ \  \\ \  \ \  \ <set attributeName="visibility" to="visible" begin="0.80s" fill="freeze"/></text>
+    <text x="91" y="245" visibility="hidden">   \ \__\ \__\ \__\\ \__\ \__\<set attributeName="visibility" to="visible" begin="0.95s" fill="freeze"/></text>
+    <text x="91" y="274" visibility="hidden">    \|__|\|__|\|__| \|__|\|__|<set attributeName="visibility" to="visible" begin="1.10s" fill="freeze"/></text>
   </g>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#c9d1d9">
-    <text x="91" y="324" opacity="0">$ ./INTRODUCE.SH<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.58;.62;.8;1" dur="6s" repeatCount="indefinite"/></text>
-    <text x="91" y="352" fill="#ffd2e9" opacity="0">&gt; HI, I’M AKI<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.64;.7;.8;1" dur="6s" repeatCount="indefinite"/></text>
-    <rect x="208" y="337" width="10" height="19" fill="#f778ba" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;.7;.72;.76;.8;.84;.88;1" dur="6s" repeatCount="indefinite"/></rect>
+  <defs>
+    <clipPath id="command-clip">
+      <rect x="91" y="304" width="0" height="25">
+        <animate attributeName="width" values="0;10;20;30;40;50;60;70;80;90;100;110;120;130;140;150;160" dur="1.28s" begin="1.40s" calcMode="discrete" fill="freeze"/>
+      </rect>
+    </clipPath>
+    <clipPath id="response-clip">
+      <rect x="91" y="333" width="0" height="25">
+        <animate attributeName="width" values="0;10;20;30;40;50;60;70;80;90;100;110;120;130" dur="1.04s" begin="2.88s" calcMode="discrete" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+    <text x="91" y="324" fill="#c9d1d9" clip-path="url(#command-clip)">$ ./INTRODUCE.SH</text>
+    <text x="91" y="353" fill="#ffd2e9" clip-path="url(#response-clip)">&gt; HI, I'M AKI</text>
+    <rect x="219" y="338" width="10" height="19" fill="#f778ba" visibility="hidden">
+      <set attributeName="visibility" to="visible" begin="3.92s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="3.92s" repeatCount="4" fill="freeze"/>
+    </rect>
   </g>
 </svg>
