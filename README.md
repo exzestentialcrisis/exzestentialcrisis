@@ -24,42 +24,56 @@
 
 ## `03 / STACK`
 
-<sub>03.1 / LANGUAGES</sub>
+`{`
 
-![TypeScript](https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=F778BA)
-![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=F778BA)
-![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=F778BA)
-![Dart](https://img.shields.io/badge/Dart-161B22?style=flat-square&logo=dart&logoColor=F778BA)
-![SQL](https://img.shields.io/badge/SQL-161B22?style=flat-square&logo=postgresql&logoColor=F778BA)
-![Java](https://img.shields.io/badge/Java-161B22?style=flat-square&logo=openjdk&logoColor=F778BA)
-![PHP](https://img.shields.io/badge/PHP-161B22?style=flat-square&logo=php&logoColor=F778BA)
+&nbsp;&nbsp;`"languages": [`
 
-<sub>03.2 / FRONTEND + MOBILE</sub>
+&nbsp;&nbsp;&nbsp;&nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-18181B?style=flat-square&logo=python&logoColor=3776AB)
+![Dart](https://img.shields.io/badge/Dart-18181B?style=flat-square&logo=dart&logoColor=0175C2)
+![SQL](https://img.shields.io/badge/SQL-18181B?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Java](https://img.shields.io/badge/Java-18181B?style=flat-square&logo=openjdk&logoColor=ED8B00)
+![PHP](https://img.shields.io/badge/PHP-18181B?style=flat-square&logo=php&logoColor=777BB4)
 
-![Next.js](https://img.shields.io/badge/Next.js-161B22?style=flat-square&logo=nextdotjs&logoColor=F778BA)
-![React](https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=F778BA)
-![Flutter](https://img.shields.io/badge/Flutter-161B22?style=flat-square&logo=flutter&logoColor=F778BA)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-161B22?style=flat-square&logo=tailwindcss&logoColor=F778BA)
+&nbsp;&nbsp;`],`
 
-<sub>03.3 / BACKEND + DATA</sub>
+&nbsp;&nbsp;`"frontend_mobile": [`
 
-![FastAPI](https://img.shields.io/badge/FastAPI-161B22?style=flat-square&logo=fastapi&logoColor=F778BA)
-![Node.js](https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=node.js&logoColor=F778BA)
-![Express.js](https://img.shields.io/badge/Express.js-161B22?style=flat-square&logo=express&logoColor=F778BA)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=F778BA)
-![MySQL](https://img.shields.io/badge/MySQL-161B22?style=flat-square&logo=mysql&logoColor=F778BA)
-![Supabase](https://img.shields.io/badge/Supabase-161B22?style=flat-square&logo=supabase&logoColor=F778BA)
+&nbsp;&nbsp;&nbsp;&nbsp;![Next.js](https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
+![React](https://img.shields.io/badge/React-18181B?style=flat-square&logo=react&logoColor=61DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-18181B?style=flat-square&logo=flutter&logoColor=54C5F8)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
 
-<sub>03.4 / DESIGN + ENVIRONMENT</sub>
+&nbsp;&nbsp;`],`
 
-![Figma](https://img.shields.io/badge/Figma-161B22?style=flat-square&logo=figma&logoColor=F778BA)
-![VS Code](https://img.shields.io/badge/VS_Code-161B22?style=flat-square&logo=visualstudiocode&logoColor=F778BA)
-![GitHub](https://img.shields.io/badge/GitHub-161B22?style=flat-square&logo=github&logoColor=F778BA)
-![Fedora Linux](https://img.shields.io/badge/Fedora_Linux-161B22?style=flat-square&logo=fedora&logoColor=F778BA)
+&nbsp;&nbsp;`"backend_data": [`
 
-<sub>03.5 / CURRENTLY EXPLORING</sub>
+&nbsp;&nbsp;&nbsp;&nbsp;![FastAPI](https://img.shields.io/badge/FastAPI-18181B?style=flat-square&logo=fastapi&logoColor=009688)
+![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
+![Express.js](https://img.shields.io/badge/Express.js-18181B?style=flat-square&logo=express&logoColor=FFFFFF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&logo=postgresql&logoColor=4169E1)
+![MySQL](https://img.shields.io/badge/MySQL-18181B?style=flat-square&logo=mysql&logoColor=4479A1)
+![Supabase](https://img.shields.io/badge/Supabase-18181B?style=flat-square&logo=supabase&logoColor=3FCF8E)
 
-`wearable health data` · `Samsung Health Sensor SDK` · `Health Connect` · `AI-assisted decision systems`
+&nbsp;&nbsp;`],`
+
+&nbsp;&nbsp;`"design_environment": [`
+
+&nbsp;&nbsp;&nbsp;&nbsp;![Figma](https://img.shields.io/badge/Figma-18181B?style=flat-square&logo=figma&logoColor=F24E1E)
+![VS Code](https://img.shields.io/badge/VS_Code-18181B?style=flat-square&logo=visualstudiocode&logoColor=007ACC)
+![GitHub](https://img.shields.io/badge/GitHub-18181B?style=flat-square&logo=github&logoColor=FFFFFF)
+![Fedora Linux](https://img.shields.io/badge/Fedora_Linux-18181B?style=flat-square&logo=fedora&logoColor=51A2DA)
+
+&nbsp;&nbsp;`],`
+
+&nbsp;&nbsp;`"currently_exploring": [`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`"wearable health data",` `"Samsung Health Sensor SDK",` `"Health Connect",` `"AI-assisted decision systems"`
+
+&nbsp;&nbsp;`]`
+
+`}`
 
 ---
 
