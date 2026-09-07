@@ -89,8 +89,6 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 ### Guess today's 5-letter word.
 
-[![FlashWordle Board](./data/board-2026-09-07-1.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
-
 <strong>Legend</strong><br>
 
 <sub>
@@ -98,6 +96,8 @@ I map out how every part connects, then turn it into software that feels intuiti
 💗 Correct letter, wrong position<br>
 ⬛ Not in the word
 </sub>
+
+[![FlashWordle Board](./data/board-2026-09-07-1.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
 ### [▶ Leave a Guess](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
