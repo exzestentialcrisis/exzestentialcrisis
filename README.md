@@ -66,21 +66,30 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 <div align="center">
 
-<img height="165" src="https://github-stats-extended.vercel.app/api?username=exzestentialcrisis&show_icons=true&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&icon_color=F778BA&border_color=30303A&border_radius=12" alt="Aki's GitHub statistics">
-
-<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=exzestentialcrisis&layout=compact&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&border_color=30303A&border_radius=12" alt="Aki's language activity">
+<img
+  src="https://streak-stats.demolab.com/?user=exzestentialcrisis&background=0D0D12&border=30303A&stroke=30303A&ring=F778BA&fire=F778BA&currStreakNum=FFD2E9&sideNums=FFD2E9&currStreakLabel=F778BA&sideLabels=C9D1D9&dates=96909A&border_radius=12&timezone=Asia%2FManila"
+  alt="Aki's GitHub streak"
+/>
 
 <br><br>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=exzestentialcrisis&bg_color=0D0D12&color=FFD2E9&line=F778BA&point=FFFFFF&area=true&hide_border=false&border_color=30303A&radius=12" alt="Aki's contribution activity">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg">
-  <img alt="A pink snake eating Aki's GitHub contributions" src="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink-dark.svg"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg"
+  >
+  <img
+    src="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg"
+    alt="A pink snake eating Aki's GitHub contributions"
+  >
 </picture>
 
 </div>
+
 ---
 
 <div align="center">
