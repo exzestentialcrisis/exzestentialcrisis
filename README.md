@@ -62,37 +62,41 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 ---
 
-## `04 / GITHUB`
+## `03 / STACK`
 
-<div align="center">
+### // BACKEND
 
-<img
-  src="https://streak-stats.demolab.com/?user=exzestentialcrisis&background=0D0D12&border=30303A&stroke=30303A&ring=F778BA&fire=F778BA&currStreakNum=FFD2E9&sideNums=FFD2E9&currStreakLabel=F778BA&sideLabels=C9D1D9&dates=96909A&border_radius=12&timezone=Asia%2FManila"
-  alt="Aki's GitHub streak"
-/>
+![Python](https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=F778BA)
+![Django](https://img.shields.io/badge/Django-161B22?style=for-the-badge&logo=django&logoColor=F778BA)
+![Django REST](https://img.shields.io/badge/DRF-161B22?style=for-the-badge&logo=django&logoColor=F778BA)
+![PHP](https://img.shields.io/badge/PHP-161B22?style=for-the-badge&logo=php&logoColor=F778BA)
+![Laravel](https://img.shields.io/badge/Laravel-161B22?style=for-the-badge&logo=laravel&logoColor=F778BA)
 
-<br>
+### // FRONTEND + MOBILE
 
-<strong>🐍 CONTRIBUTION SNAKE</strong><br>
-<sub>A tiny pink menace eating my GitHub contributions.</sub>
+![Flutter](https://img.shields.io/badge/Flutter-161B22?style=for-the-badge&logo=flutter&logoColor=F778BA)
+![Dart](https://img.shields.io/badge/Dart-161B22?style=for-the-badge&logo=dart&logoColor=F778BA)
+![Next.js](https://img.shields.io/badge/Next.js-161B22?style=for-the-badge&logo=nextdotjs&logoColor=F778BA)
+![TypeScript](https://img.shields.io/badge/TypeScript-161B22?style=for-the-badge&logo=typescript&logoColor=F778BA)
+![React Native](https://img.shields.io/badge/React_Native-161B22?style=for-the-badge&logo=react&logoColor=F778BA)
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink-dark.svg"
-  >
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg"
-  >
-  <img
-    width="100%"
-    src="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg"
-    alt="A pink snake eating Aki's GitHub contributions"
-  >
-</picture>
+### // AI + DATA
 
-</div>
+![OpenAI](https://img.shields.io/badge/OpenAI-161B22?style=for-the-badge&logo=openai&logoColor=F778BA)
+![Supabase](https://img.shields.io/badge/Supabase-161B22?style=for-the-badge&logo=supabase&logoColor=F778BA)
+![pgvector](https://img.shields.io/badge/pgvector-161B22?style=for-the-badge&logo=postgresql&logoColor=F778BA)
+![n8n](https://img.shields.io/badge/n8n-161B22?style=for-the-badge&logo=n8n&logoColor=F778BA)
+
+### // INFRA + DEVOPS
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=for-the-badge&logo=postgresql&logoColor=F778BA)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-161B22?style=for-the-badge&logo=digitalocean&logoColor=F778BA)
+![Redis](https://img.shields.io/badge/Redis-161B22?style=for-the-badge&logo=redis&logoColor=F778BA)
+![Docker](https://img.shields.io/badge/Docker-161B22?style=for-the-badge&logo=docker&logoColor=F778BA)
+![Nginx](https://img.shields.io/badge/Nginx-161B22?style=for-the-badge&logo=nginx&logoColor=F778BA)
+![Vercel](https://img.shields.io/badge/Vercel-161B22?style=for-the-badge&logo=vercel&logoColor=F778BA)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-161B22?style=for-the-badge&logo=githubactions&logoColor=F778BA)
+
 
 ---
 
