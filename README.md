@@ -1,22 +1,23 @@
 <div align="center">
 
-# Hi, I'm Aki 👋
-
-### IT Student · Full-Stack Developer · Professional "I'll figure it out" Engineer
-
-I build across the stack — from interfaces and backend systems to databases, mobile apps, and connected devices.
-
-<sub>A lot of what I know came from having an idea, realizing I had absolutely no idea how to build half of it, and then figuring it out anyway.</sub>
-
-[Portfolio](https://akina-alegre.vercel.app) · [FlashWordle](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
+```text
+╭─ AKI@GITHUB:~/PROFILE ───────────────────────────────────╮
+│                                                           │
+│   ________  ___  __    ___                                │
+│  |\   __  \|\  \|\  \ |\  \                               │
+│  \ \  \|\  \ \  \/  /|\ \  \                              │
+│   \ \   __  \ \   ___  \ \  \                             │
+│    \ \  \ \  \ \  \\ \  \ \  \                            │
+│     \ \__\ \__\ \__\\ \__\ \__\                           │
+│      \|__|\|__|\|__| \|__|\|__|                           │
+│                                                           │
+│  $ ./INTRODUCE.SH                                        │
+│  > HI, I'M AKI_                                          │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
+```
 
 </div>
-
----
-
-## `01 / ABOUT`
-
-I'm an IT student and full-stack developer who learns by building. My work spans web and mobile development, backend systems, UI/UX, and connected health technologies—from patient platforms to smartwatch-assisted monitoring that links sensors, apps, APIs, and databases.
 
 ---
 
@@ -58,7 +59,7 @@ I'm an IT student and full-stack developer who learns by building. My work spans
 <sub>03.3 / BACKEND + DATA</sub>
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-161B22?style=flat-square&logo=fastapi&logoColor=F778BA)
-![Node.js](https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=nodedotjs&logoColor=F778BA)
+![Node.js](https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=node.js&logoColor=F778BA)
 ![Express.js](https://img.shields.io/badge/Express.js-161B22?style=flat-square&logo=express&logoColor=F778BA)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=F778BA)
 ![MySQL](https://img.shields.io/badge/MySQL-161B22?style=flat-square&logo=mysql&logoColor=F778BA)
