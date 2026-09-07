@@ -71,7 +71,10 @@ I map out how every part connects, then turn it into software that feels intuiti
   alt="Aki's GitHub streak"
 />
 
-<br><br>
+<br>
+
+<strong>🐍 CONTRIBUTION SNAKE</strong><br>
+<sub>A tiny pink menace eating my GitHub contributions.</sub>
 
 <picture>
   <source
@@ -83,6 +86,7 @@ I map out how every part connects, then turn it into software that feels intuiti
     srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg"
   >
   <img
+    width="100%"
     src="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg"
     alt="A pink snake eating Aki's GitHub contributions"
   >
