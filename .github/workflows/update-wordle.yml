@@ -34,17 +34,44 @@ jobs:
       - name: Process guess
         run: node scripts/processGuess.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_EVENT_PATH: ${{ github.event_path }}
 
-      - name: Commit updated game state
+      - name: Commit and publish updated board
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A data README.md
 
-          git diff --cached --quiet || \
+          if git diff --cached --quiet; then
+            echo "No board changes to commit."
+          else
             git commit -m "game: update FlashWordle board"
+            git push
+          fi
 
-          git push
+      - name: Post response after publishing
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+
+            const responsePath = ".flashwordle-response.md";
+
+            if (!fs.existsSync(responsePath)) {
+              core.info("No response was generated.");
+              return;
+            }
+
+            const body = fs.readFileSync(
+              responsePath,
+              "utf8"
+            );
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body
+            });

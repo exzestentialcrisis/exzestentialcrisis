@@ -1,25 +1,21 @@
 import fs from "fs";
-import { Octokit } from "octokit";
 
 await import("./dailyWord.js");
 
-const octokit = new Octokit({
-  auth: process.env.GITHUB_TOKEN,
-});
-
 const stateFile = "./data/state.json";
+const responseFile = "./.flashwordle-response.md";
 
-const repository =
-  process.env.GITHUB_REPOSITORY ||
-  "exzestentialcrisis/exzestentialcrisis";
+const refreshedBoardFooter = `
 
-const [repoOwner, repoName] = repository.split("/");
+### [↻ View the refreshed board](https://github.com/exzestentialcrisis)
+
+<sub>If you can see this reply, the new board has been published and is ready to view ✦</sub>`;
 
 function evaluateGuess(guess, word) {
   const result = Array(5).fill("absent");
   const remaining = word.split("");
 
-  // Exact matches first
+  // Correct positions first.
   for (let i = 0; i < 5; i++) {
     if (guess[i] === word[i]) {
       result[i] = "correct";
@@ -27,7 +23,7 @@ function evaluateGuess(guess, word) {
     }
   }
 
-  // Then letters in the wrong position
+  // Then letters in the wrong position.
   for (let i = 0; i < 5; i++) {
     if (result[i] === "correct") continue;
 
@@ -54,13 +50,8 @@ function feedbackString(states) {
     .join("");
 }
 
-async function reply(issueNumber, body) {
-  await octokit.rest.issues.createComment({
-    owner: repoOwner,
-    repo: repoName,
-    issue_number: issueNumber,
-    body,
-  });
+function writeResponse(body) {
+  fs.writeFileSync(responseFile, body);
 }
 
 async function main() {
@@ -75,7 +66,6 @@ async function main() {
     fs.readFileSync(eventPath, "utf-8")
   );
 
-  // Only comments count as guesses now.
   const rawGuess = event.comment?.body?.trim();
 
   if (!rawGuess) {
@@ -85,16 +75,8 @@ async function main() {
 
   const guess = rawGuess.toUpperCase();
 
-  const issueNumber = event.issue?.number;
-
-  if (!issueNumber) {
-    console.log("No issue number found.");
-    return;
-  }
-
   if (!/^[A-Z]{5}$/.test(guess)) {
-    await reply(
-      issueNumber,
+    writeResponse(
       "FlashWordle only accepts **5-letter guesses**. Try again ✦"
     );
 
@@ -109,8 +91,7 @@ async function main() {
   const guesses = state.guesses || [];
 
   if (guesses.includes(word)) {
-    await reply(
-      issueNumber,
+    writeResponse(
       "Today's FlashWordle has already been solved 🩷 Come back for the next one!"
     );
 
@@ -118,8 +99,7 @@ async function main() {
   }
 
   if (guesses.length >= 6) {
-    await reply(
-      issueNumber,
+    writeResponse(
       "Today's board is already full. Better luck next round ✦"
     );
 
@@ -127,8 +107,7 @@ async function main() {
   }
 
   if (guesses.includes(guess)) {
-    await reply(
-      issueNumber,
+    writeResponse(
       `**${guess}** has already been guessed.`
     );
 
@@ -151,19 +130,25 @@ async function main() {
   const feedback = feedbackString(states);
 
   if (guess === word) {
-    await reply(
-      issueNumber,
-      `### ${guess}\n${feedback}\n\n**You got it!** 🩷`
+    writeResponse(
+      `### ${guess}
+${feedback}
+
+**You got it!** 🩷${refreshedBoardFooter}`
     );
   } else if (state.guesses.length >= 6) {
-    await reply(
-      issueNumber,
-      `### ${guess}\n${feedback}\n\nOut of guesses — today's word was **${word}**.`
+    writeResponse(
+      `### ${guess}
+${feedback}
+
+Out of guesses — today's word was **${word}**.${refreshedBoardFooter}`
     );
   } else {
-    await reply(
-      issueNumber,
-      `### ${guess}\n${feedback}\n\n**${6 - state.guesses.length} guesses remaining.**`
+    writeResponse(
+      `### ${guess}
+${feedback}
+
+**${6 - state.guesses.length} guesses remaining.**${refreshedBoardFooter}`
     );
   }
 

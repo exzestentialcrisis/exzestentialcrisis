@@ -52,12 +52,8 @@ const canvas = createCanvas(width, height);
 const ctx = canvas.getContext("2d");
 
 /*
- * IMPORTANT:
- *
- * We intentionally DO NOT paint a canvas background.
- *
- * PNG transparency lets GitHub's actual README background
- * show through instead of faking #0d1117.
+ * The background is intentionally transparent so GitHub's
+ * actual README background shows through.
  */
 
 function roundedRect(ctx, x, y, width, height, radius) {
@@ -93,17 +89,11 @@ function roundedRect(ctx, x, y, width, height, radius) {
   ctx.closePath();
 }
 
-/*
- * Proper Wordle-style evaluation.
- *
- * This handles duplicate letters correctly instead of simply
- * checking WORD.includes(letter).
- */
 function evaluateGuess(guess, word) {
   const result = Array(COLS).fill("absent");
   const remaining = word.split("");
 
-  // Correct position first.
+  // Correct positions first.
   for (let i = 0; i < COLS; i++) {
     if (guess[i] === word[i]) {
       result[i] = "correct";
@@ -111,7 +101,7 @@ function evaluateGuess(guess, word) {
     }
   }
 
-  // Then find letters that exist elsewhere.
+  // Then letters that exist elsewhere.
   for (let i = 0; i < COLS; i++) {
     if (result[i] === "correct") continue;
 
@@ -213,7 +203,7 @@ fs.writeFileSync(
   canvas.toBuffer("image/png")
 );
 
-// Remove the previous board image so they don't pile up forever.
+// Remove the previous board image.
 for (const filename of fs.readdirSync("./data")) {
   const isBoardImage =
     /^board(?:-.*)?\.png$/.test(filename);
@@ -223,8 +213,7 @@ for (const filename of fs.readdirSync("./data")) {
   }
 }
 
-// Point the README at the newly generated filename.
-// A genuinely new URL avoids GitHub's stubborn image cache.
+// Update the README to use the newly generated board URL.
 const readmePath = "./README.md";
 const readme = fs.readFileSync(readmePath, "utf-8");
 

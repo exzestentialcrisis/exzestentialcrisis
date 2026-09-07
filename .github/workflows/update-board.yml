@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: flashwordle
@@ -35,14 +36,50 @@ jobs:
           node scripts/dailyWord.js
           node scripts/generateBoard.js
 
-      - name: Commit new daily board
+      - name: Commit and publish daily board
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A data README.md
-          
-          git diff --cached --quiet || \
-            git commit -m "game: reset FlashWordle"
 
-          git push
+          if git diff --cached --quiet; then
+            echo "No daily board changes to commit."
+          else
+            git commit -m "game: reset FlashWordle"
+            git push
+          fi
+
+      - name: Clear previous puzzle comments
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issueNumber = 1;
+
+            const comments = await github.paginate(
+              github.rest.issues.listComments,
+              {
+                owner,
+                repo,
+                issue_number: issueNumber,
+                per_page: 100
+              }
+            );
+
+            core.info(
+              `Removing ${comments.length} comments from the previous puzzle.`
+            );
+
+            for (const comment of comments) {
+              await github.rest.issues.deleteComment({
+                owner,
+                repo,
+                comment_id: comment.id
+              });
+            }
+
+            core.info(
+              "Previous puzzle comments cleared successfully."
+            );
