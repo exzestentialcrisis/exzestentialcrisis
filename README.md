@@ -74,6 +74,12 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=exzestentialcrisis&bg_color=0D0D12&color=FFD2E9&line=F778BA&point=FFFFFF&area=true&hide_border=false&border_color=30303A&radius=12" alt="Aki's contribution activity">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg">
+  <img alt="A pink snake eating Aki's GitHub contributions" src="https://raw.githubusercontent.com/exzestentialcrisis/exzestentialcrisis/output/github-snake-pink.svg">
+</picture>
+
 </div>
 ---
 
