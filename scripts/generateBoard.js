@@ -203,14 +203,38 @@ for (let rowIndex = 0; rowIndex < ROWS; rowIndex++) {
   }
 }
 
-const out = fs.createWriteStream(
-  "./data/board.png"
+const boardFilename =
+  `board-${state.date}-${guesses.length}.png`;
+
+const boardPath = `./data/${boardFilename}`;
+
+fs.writeFileSync(
+  boardPath,
+  canvas.toBuffer("image/png")
 );
 
-const stream = canvas.createPNGStream();
+// Remove the previous board image so they don't pile up forever.
+for (const filename of fs.readdirSync("./data")) {
+  const isBoardImage =
+    /^board(?:-.*)?\.png$/.test(filename);
 
-stream.pipe(out);
+  if (isBoardImage && filename !== boardFilename) {
+    fs.unlinkSync(`./data/${filename}`);
+  }
+}
 
-out.on("finish", () => {
-  console.log("FlashWordle board updated ✦");
-});
+// Point the README at the newly generated filename.
+// A genuinely new URL avoids GitHub's stubborn image cache.
+const readmePath = "./README.md";
+const readme = fs.readFileSync(readmePath, "utf-8");
+
+const updatedReadme = readme.replace(
+  /data\/board(?:-[0-9-]+)?\.png(?:\?v=\d+)?/g,
+  `data/${boardFilename}`
+);
+
+fs.writeFileSync(readmePath, updatedReadme);
+
+console.log(
+  `FlashWordle board updated: ${boardFilename} ✦`
+);
