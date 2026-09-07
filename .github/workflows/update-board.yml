@@ -1,0 +1,48 @@
+name: Reset FlashWordle
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: flashwordle
+  cancel-in-progress: false
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Reset daily puzzle
+        run: |
+          node scripts/dailyWord.js
+          node scripts/generateBoard.js
+
+      - name: Commit new daily board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/state.json data/board.png
+
+          git diff --cached --quiet || \
+            git commit -m "game: reset FlashWordle"
+
+          git push
