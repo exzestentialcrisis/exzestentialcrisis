@@ -26,40 +26,35 @@ I map out how every part connects, then turn it into software that feels intuiti
 ---
 
 ## `03 / STACK`
-## `03 / STACK`
 
-// LANGUAGES  
-![TypeScript](https://img.shields.io/badge/TypeScript-18181B?style=flat-square&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-18181B?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-18181B?style=flat-square&logo=python&logoColor=3776AB)
-![Dart](https://img.shields.io/badge/Dart-18181B?style=flat-square&logo=dart&logoColor=0175C2)
-![SQL](https://img.shields.io/badge/SQL-18181B?style=flat-square&logo=postgresql&logoColor=4169E1)
-![Java](https://img.shields.io/badge/Java-18181B?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![PHP](https://img.shields.io/badge/PHP-18181B?style=flat-square&logo=php&logoColor=777BB4)
+// BACKEND  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Django REST](https://img.shields.io/badge/DRF-FF1709?style=for-the-badge&logo=django&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
 // FRONTEND + MOBILE  
-![Next.js](https://img.shields.io/badge/Next.js-18181B?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
-![React](https://img.shields.io/badge/React-18181B?style=flat-square&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-18181B?style=flat-square&logo=flutter&logoColor=54C5F8)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-18181B?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-// BACKEND + DATA  
-![FastAPI](https://img.shields.io/badge/FastAPI-18181B?style=flat-square&logo=fastapi&logoColor=009688)
-![Node.js](https://img.shields.io/badge/Node.js-18181B?style=flat-square&logo=nodedotjs&logoColor=5FA04E)
-![Express.js](https://img.shields.io/badge/Express.js-18181B?style=flat-square&logo=express&logoColor=FFFFFF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-18181B?style=flat-square&logo=postgresql&logoColor=4169E1)
-![MySQL](https://img.shields.io/badge/MySQL-18181B?style=flat-square&logo=mysql&logoColor=4479A1)
-![Supabase](https://img.shields.io/badge/Supabase-18181B?style=flat-square&logo=supabase&logoColor=3FCF8E)
+// AI + DATA  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
-// DESIGN + ENVIRONMENT  
-![Figma](https://img.shields.io/badge/Figma-18181B?style=flat-square&logo=figma&logoColor=F24E1E)
-![VS Code](https://img.shields.io/badge/VS_Code-18181B?style=flat-square&logo=visualstudiocode&logoColor=007ACC)
-![GitHub](https://img.shields.io/badge/GitHub-18181B?style=flat-square&logo=github&logoColor=FFFFFF)
-![Fedora Linux](https://img.shields.io/badge/Fedora_Linux-18181B?style=flat-square&logo=fedora&logoColor=51A2DA)
-
-// CURRENTLY EXPLORING  
-wearable health data · Samsung Health Sensor SDK · Health Connect · AI-assisted decision systems
-
+// INFRA + DEVOPS  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ---
 
 ## `04 / GITHUB`
