@@ -1,5 +1,7 @@
 {
   "currentWord": "EAGLE",
-  "guesses": [],
+  "guesses": [
+    "ALERT"
+  ],
   "date": "2026-09-07"
 }
