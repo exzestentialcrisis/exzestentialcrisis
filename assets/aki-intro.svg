@@ -1,10 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="390" viewBox="0 0 920 390" role="img" aria-labelledby="title description">
-  <title id="title">Animated terminal introduction for Aki</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="390" viewBox="0 0 880 390" role="img" aria-labelledby="combined-title combined-description">
+  <title id="combined-title">Animated terminal and developer profile for Aki</title>
+  <desc id="combined-description">A two-panel IDE composition. The left terminal preserves Aki's animated ASCII introduction, while the right editor shows a concise TypeScript profile.</desc>
+
+  <svg x="0" y="0" width="600" height="390" viewBox="0 0 600 390">
+<title id="title">Animated terminal introduction for Aki</title>
   <desc id="description">A dark terminal window prints a three-dimensional ASCII AKI logo line by line, then types an introduction command and greeting once.</desc>
 
-  <rect width="920" height="390" rx="18" fill="#0d0d12"/>
-  <rect x="1" y="1" width="918" height="388" rx="17" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
-  <path d="M18 48H902" stroke="#ffffff" stroke-opacity=".12"/>
+  <rect width="600" height="390" rx="18" fill="#0d0d12"/>
+  <rect x="1" y="1" width="598" height="388" rx="17" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+  <path d="M18 48H582" stroke="#ffffff" stroke-opacity=".12"/>
 
   <circle cx="31" cy="25" r="6" fill="#f778ba"/>
   <circle cx="51" cy="25" r="6" fill="#ffffff" fill-opacity=".28"/>
@@ -151,12 +155,12 @@
   </g>
 
   <defs>
-    <clipPath id="command-clip">
+    <clipPath id="left-command-clip">
       <rect x="91" y="304" width="0" height="25">
         <animate attributeName="width" values="0;10;20;30;40;50;60;70;80;90;100;110;120;130;140;150;160" dur="1.50s" begin="1.98s" calcMode="discrete" fill="freeze"/>
       </rect>
     </clipPath>
-    <clipPath id="response-clip">
+    <clipPath id="left-response-clip">
       <rect x="91" y="333" width="0" height="25">
         <animate attributeName="width" values="0;10;20;30;40;50;60;70;80;90;100;110;120;130" dur="1.25s" begin="3.73s" calcMode="discrete" fill="freeze"/>
       </rect>
@@ -164,11 +168,62 @@
   </defs>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
-    <text x="91" y="324" fill="#c9d1d9" clip-path="url(#command-clip)">$ ./INTRODUCE.SH</text>
-    <text x="91" y="353" fill="#ffd2e9" clip-path="url(#response-clip)">&gt; HI, I'M AKI</text>
+    <text x="91" y="324" fill="#c9d1d9" clip-path="url(#left-command-clip)">$ ./INTRODUCE.SH</text>
+    <text x="91" y="353" fill="#ffd2e9" clip-path="url(#left-response-clip)">&gt; HI, I'M AKI</text>
     <rect x="219" y="338" width="10" height="19" fill="#f778ba" visibility="hidden">
       <set attributeName="visibility" to="visible" begin="4.98s" fill="freeze"/>
       <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="4.98s" repeatCount="4" fill="freeze"/>
     </rect>
+  </g>
+  </svg>
+
+  <g transform="translate(620 0)">
+    <rect width="260" height="390" rx="18" fill="#0d0d12"/>
+    <rect x="1" y="1" width="258" height="388" rx="17" fill="none" stroke="#ffffff" stroke-opacity=".18"/>
+    <path d="M18 48H242" stroke="#ffffff" stroke-opacity=".12"/>
+
+    <circle cx="31" cy="25" r="6" fill="#f778ba"/>
+    <circle cx="51" cy="25" r="6" fill="#ffffff" fill-opacity=".28"/>
+    <circle cx="71" cy="25" r="6" fill="#ffffff" fill-opacity=".15"/>
+    <text x="93" y="29" fill="#96909a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1">PORTFOLIO.TSX</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+      <g fill="#5f5b65" text-anchor="end">
+        <text x="39" y="83">01</text><text x="39" y="108">02</text><text x="39" y="133">03</text>
+        <text x="39" y="158">04</text><text x="39" y="183">05</text><text x="39" y="208">06</text>
+        <text x="39" y="233">07</text><text x="39" y="258">08</text>
+      </g>
+
+      <text x="51" y="83" fill="#c792ea">const</text>
+      <text x="97" y="83" fill="#f778ba">aki</text>
+      <text x="124" y="83" fill="#c9d1d9">= {</text>
+
+      <text x="65" y="108" fill="#c9d1d9">role:</text>
+      <text x="112" y="108" fill="#ffd2e9">"Full-Stack</text>
+      <text x="112" y="128" fill="#ffd2e9">Developer",</text>
+
+      <text x="65" y="158" fill="#c9d1d9">focus:</text>
+      <text x="120" y="158" fill="#ffd2e9">"Healthcare</text>
+      <text x="120" y="178" fill="#ffd2e9">Technology",</text>
+
+      <text x="65" y="208" fill="#c9d1d9">building:</text>
+      <text x="143" y="208" fill="#ffd2e9">"Alera",</text>
+
+      <text x="65" y="233" fill="#c9d1d9">loves:</text>
+      <text x="120" y="233" fill="#ffd2e9">["Systems",</text>
+      <text x="120" y="253" fill="#ffd2e9">"UI/UX"],</text>
+
+      <text x="51" y="278" fill="#c9d1d9">};</text>
+      <rect x="70" y="263" width="8" height="19" fill="#f778ba">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" begin="4.98s" repeatCount="4" fill="freeze"/>
+      </rect>
+    </g>
+
+    <path d="M24 305H236" stroke="#ffffff" stroke-opacity=".12"/>
+    <g fill="#b8b3bd" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13.5">
+      <text x="25" y="332">I turn real-world problems</text>
+      <text x="25" y="354">into thoughtful systems, code,</text>
+      <text x="25" y="376">and interfaces.</text>
+    </g>
   </g>
 </svg>
