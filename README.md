@@ -50,9 +50,9 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=exzestentialcrisis&show_icons=true&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&icon_color=F778BA&border_color=30303A&border_radius=12" alt="Aki's GitHub statistics">
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=exzestentialcrisis&show_icons=true&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&icon_color=F778BA&border_color=30303A&border_radius=12" alt="Aki's GitHub statistics">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=exzestentialcrisis&layout=compact&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&border_color=30303A&border_radius=12" alt="Aki's language activity">
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=exzestentialcrisis&layout=compact&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&border_color=30303A&border_radius=12" alt="Aki's language activity">
 
 <br><br>
 
