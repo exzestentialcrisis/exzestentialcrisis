@@ -2,9 +2,11 @@
 
 # Hi, I'm Aki 👋
 
-### IT Student · Full-Stack Developer
+### IT Student · Full-Stack Developer · Professional "I'll figure it out" Engineer
 
-I build thoughtful interfaces and reliable systems—from mobile apps and APIs to databases and connected devices.
+I build across the stack — from interfaces and backend systems to databases, mobile apps, and connected devices.
+
+<sub>A lot of what I know came from having an idea, realizing I had absolutely no idea how to build half of it, and then figuring it out anyway.</sub>
 
 [Portfolio](https://akina-alegre.vercel.app) · [FlashWordle](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
@@ -12,7 +14,13 @@ I build thoughtful interfaces and reliable systems—from mobile apps and APIs t
 
 ---
 
-## `01 / FLASHWORDLE`
+## `01 / ABOUT`
+
+I'm an IT student and full-stack developer who learns by building. My work spans web and mobile development, backend systems, UI/UX, and connected health technologies—from patient platforms to smartwatch-assisted monitoring that links sensors, apps, APIs, and databases.
+
+---
+
+## `02 / FLASHWORDLE`
 
 <div align="center">
 
@@ -22,13 +30,13 @@ I build thoughtful interfaces and reliable systems—from mobile apps and APIs t
 
 ### [▶ Leave a Guess](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
-<sub>Shared daily puzzle · powered by GitHub Issues + Actions</sub>
+<sub>Powered by GitHub Issues, GitHub Actions, and an unreasonable commitment to putting Wordle in my profile.</sub>
 
 </div>
 
 ---
 
-## `02 / STACK`
+## `03 / STACK`
 
 <p align="center">
   <img src="./assets/stack.svg" alt="Aki's technology stack" width="100%" />
@@ -36,7 +44,7 @@ I build thoughtful interfaces and reliable systems—from mobile apps and APIs t
 
 ---
 
-## `03 / GITHUB`
+## `04 / GITHUB`
 
 <div align="center">
 
@@ -45,24 +53,6 @@ I build thoughtful interfaces and reliable systems—from mobile apps and APIs t
 <img height="155" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=exzestentialcrisis&amp;layout=compact&amp;hide_border=false&amp;bg_color=00000000&amp;title_color=FFD2E9&amp;text_color=C9D1D9&amp;border_color=9B456F" alt="Aki's top languages" />
 
 </div>
-
----
-
-## `04 / SELECTED WORK`
-
-### `ALERA`
-Smartwatch-assisted elderly health monitoring system connecting wearable sensors, Flutter, FastAPI, PostgreSQL, and caregiver alerts.  
-`Flutter` `FastAPI` `PostgreSQL` `Wear OS` · <sub>Capstone · In development</sub>
-
-### `BOHOL VINTAGE CARS`
-Rental and operations platform covering customer bookings, fleet, maintenance, finance, and administration.  
-`React` `JavaScript` `Leaflet` · <sub>Client demo completed · Production system in development</sub>
-
-### `RAiDIOLOGY`
-AI-assisted radiology workflow concept exploring DICOM imaging, prioritization, and clinical decision support.  
-<sub>AI.DEAS for Impact Champion · Philippine Startup Challenge 9 Region VII awardee</sub>
-
----
 
 <div align="center">
 
