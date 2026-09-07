@@ -84,12 +84,15 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 <div align="center">
 
-<img height="155" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=exzestentialcrisis&amp;show_icons=true&amp;hide_border=false&amp;bg_color=00000000&amp;title_color=FFD2E9&amp;text_color=C9D1D9&amp;icon_color=F778BA&amp;border_color=9B456F" alt="Aki's GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=exzestentialcrisis&show_icons=true&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&icon_color=F778BA&border_color=30303A&border_radius=12" alt="Aki's GitHub statistics">
 
-<img height="155" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=exzestentialcrisis&amp;layout=compact&amp;hide_border=false&amp;bg_color=00000000&amp;title_color=FFD2E9&amp;text_color=C9D1D9&amp;border_color=9B456F" alt="Aki's top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=exzestentialcrisis&layout=compact&bg_color=0D0D12&title_color=FFD2E9&text_color=C9D1D9&border_color=30303A&border_radius=12" alt="Aki's language activity">
+
+<br><br>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=exzestentialcrisis&bg_color=0D0D12&color=FFD2E9&line=F778BA&point=FFFFFF&area=true&hide_border=false&border_color=30303A&radius=12" alt="Aki's contribution activity">
 
 </div>
-
 ---
 
 <div align="center">
