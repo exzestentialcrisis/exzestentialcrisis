@@ -89,7 +89,19 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 ### Guess today's 5-letter word.
 
+<<<<<<< HEAD
 [![FlashWordle Board](./data/board-2026-09-07-1.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
+=======
+<strong>Legend</strong><br>
+
+<sub>
+🩷 Correct letter, correct position<br>
+💗 Correct letter, wrong position<br>
+⬛ Not in the word
+</sub>
+
+[![FlashWordle Board](./data/board-2026-09-07-5.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
+>>>>>>> 74f73e6 (updated readme file)
 
 ### [▶ Leave a Guess](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
@@ -98,13 +110,9 @@ The bot will reply when your guess has been processed.<br>
 Once it replies, open the refreshed profile to see the updated board ✦
 </sub>
 
-<br><br>
-
 <sub>Powered by GitHub Issues, GitHub Actions, and an unreasonable commitment to putting Wordle in my profile.</sub>
 
 </div>
-
-<br>
 
 <div align="center">
 
