@@ -90,14 +90,13 @@ I map out how every part connects, then turn it into software that feels intuiti
 ### Guess today's 5-letter word.
 
 <strong>Legend</strong>
-
-<strong>
+<sub>
 🩷 Correct letter, correct position<br>
 💗 Correct letter, wrong position<br>
 ⬛ Not in the word
-</strong>
+</sub>
 
-<br>
+<br><br>
 
 [![FlashWordle Board](./data/board-2026-09-07-1.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
