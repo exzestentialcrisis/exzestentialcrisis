@@ -1,5 +1,7 @@
 {
-  "currentWord": "APPLE",
-  "guesses": [],
-  "date": "2026-10-08"
+  "currentWord": "BANJO",
+  "guesses": [
+    "ALERT"
+  ],
+  "date": "2026-10-09"
 }
