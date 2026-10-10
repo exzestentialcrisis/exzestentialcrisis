@@ -98,7 +98,7 @@ I map out how every part connects, then turn it into software that feels intuiti
 
 <br>
 
-[![FlashWordle Board](./data/board-2026-10-09-0.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
+[![FlashWordle Board](./data/board-2026-10-10-0.png)](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
 ### [▶ Leave a Guess](https://github.com/exzestentialcrisis/exzestentialcrisis/issues/1)
 
